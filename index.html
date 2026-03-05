@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Request business pricing details by completing the contact form. Provide your company information and our team will reach out to discuss the best solution for you."
+    />
+    <meta
+      name="keywords"
+      content="business pricing, pricing request, enterprise pricing, landing pages, business services, contact form"
+    />
+    <meta name="author" content="Sebastián Aguiñada" />
+    <meta name="title" content="Request Business Pricing | Company Solutions" />
+
+    <link
+      rel="icon"
+      href="./resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Contact Page | devChallenges.io</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./fonts.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-container">
+        <img src="./resources/Logo.svg" alt="Becv logo" />
+      </div>
+    </header>
+    <main>
+      <h1>Interested in our business pricing?</h1>
+      <p>
+        Fill out the form to view details and we’ll contact you as soon as
+        possible.
+      </p>
+      <form>
+        <div class="form-input">
+          <label for="contact-name">Name</label>
+          <input
+            id="contact-name"
+            type="text"
+            placeholder="Ethan Johnson"
+            required
+          />
+        </div>
+        <div class="form-input">
+          <label for="company-email">Company Email</label>
+          <input
+            id="company-email"
+            type="email"
+            placeholder="ethan@johnson.com"
+            required
+          />
+        </div>
+        <div class="form-input">
+          <label for="company-size-select">Company Size</label>
+          <select id="company-size-select" name="company-size">
+            <option value="50 to 100 employees" selected>50-100 employees</option>
+            <option value="100 to 150 employees">100-150 employees</option>
+            <option value="150 to 200 employees">150-200 employees</option>
+          </select>
+        </div>
+        <div class="form-input">
+          <label for="subject-select">Subject</label>
+          <select id="subject-select" name="subject">
+            <option value="landing page" selected>
+              Building Landing pages
+            </option>
+            <option value="web application">Develop a Web Application</option>
+            <option value="fix issues">Fix issues on the website</option>
+          </select>
+        </div>
+        <div class="form-input">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="50-100 employees"></textarea>
+        </div>
+        <div class="form-button">
+          <button type="submit">Contact Sales</button>
+        </div>
+      </form>
+    </main>
+    <footer class="author-info">
+      Coded by <a href="#">Sebastian</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </footer>
+  </body>
+</html>
