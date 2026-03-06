@@ -123,13 +123,6 @@ select {
   border-radius: 12px;
   border: none;
   background-color: #ffffff;
-  transition: all 0.5s ease-in;
-}
-
-.form-button button:hover {
-  cursor: pointer;
-  background-color: #4036a9;
-  color: #ffffff;
 }
 
 @media screen and (min-width: 40rem) {
@@ -156,5 +149,17 @@ select {
 
   .form-button {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  .form-button button {
+    transition: all 0.5s ease-in;
+  }
+
+  .form-button button:hover {
+    cursor: pointer;
+    background-color: #4036a9;
+    color: #ffffff;
   }
 }

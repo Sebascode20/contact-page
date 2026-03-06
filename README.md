@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](./contact-page-beryl.vercel.app.webp)
+![screenshot](./screenshot-contact-page.png)
 
 This project is a professional contact page designed to collect business inquiries and pricing requests. It features a responsive contact form that allows potential clients to submit their company information and specific requirements. The page is built with a modern, clean design that emphasizes user experience and form accessibility.
 consists of
