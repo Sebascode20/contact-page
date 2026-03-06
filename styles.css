@@ -42,6 +42,14 @@ main p {
   line-height: 1.5;
 }
 
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("./resources/Expand_down.svg");
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+}
+
 textarea {
   min-width: 100%;
   resize: none;
@@ -115,10 +123,13 @@ select {
   border-radius: 12px;
   border: none;
   background-color: #ffffff;
+  transition: all 0.5s ease-in;
 }
 
 .form-button button:hover {
   cursor: pointer;
+  background-color: #4036a9;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 40rem) {
@@ -135,8 +146,8 @@ select {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-block: 12px;
-    padding-inline: 15px;
+    padding-block: 0.75rem;
+    padding-inline: 0.938rem;
   }
 
   .form-input {
